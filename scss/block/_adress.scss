@@ -1,0 +1,49 @@
+.adress__block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-bottom: 160px;
+}
+
+.adress__text{
+    display: flex;
+    justify-content: space-between;
+    gap: 37px;
+}
+
+.adress__name{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 170%;
+    letter-spacing: 0.01em;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.adres__word{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 160%;
+    color: #2E2E2E;
+    margin-bottom: 8px;
+}
+
+.adress__subtitle{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    color: grey;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 920px) {
+    .adress__text{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 726px) {
+    .adress__block{
+        display: block;
+    }
+}

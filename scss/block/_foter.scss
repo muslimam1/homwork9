@@ -1,0 +1,89 @@
+.foter{
+    background-color: black;
+    padding-bottom: 23px;
+}
+
+.foter__num{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.foter__body{
+    padding-top: 102px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.foter__text{
+    width: 289px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgb(173, 173, 173);
+    margin-top: 64px;
+}
+
+.foter__name{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.foter__subTitle{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    color: white;
+    margin-bottom: 16px;
+
+    &:hover{
+        cursor: pointer;
+        color: orange;
+    }
+}
+
+.foter__desc{
+    border-top: 1px solid grey;
+    display: flex;
+    gap: 24px;
+}
+
+.foter__words{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: rgb(160, 158, 158);
+}
+
+@media screen and (max-width:1000px) {
+    .cont{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .foter__body{
+        display: block;
+    }
+
+    .foter__text{
+        width: auto;
+    }
+
+    .foter__name{
+        margin-top: 32px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .foter__desc{
+        display: block;
+    }
+}

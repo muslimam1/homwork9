@@ -1,0 +1,130 @@
+.input{
+    background-image: url('../img/input-bg.png');
+}
+
+.input__title{
+    font-weight: 200;
+    font-size: 64px;
+    line-height: 123%;
+    letter-spacing: 0.05em;
+    color: white;
+    width: 820px;
+}
+
+.input__wrapper{
+    padding-top: 52px;
+    padding-bottom: 40px;
+}
+
+.input__box{
+    margin-top: 32px;
+    gap: 16px;
+}
+
+.input__padd{
+    padding: 10px 16px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+
+    &:hover{
+        border: 1px solid rgb(153, 85, 7);
+    }
+
+}
+
+.input__name{
+    margin-bottom: 16px;
+}
+
+.input__width{
+    border-radius: 10px;
+    padding: 10px 16px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    width: 456px;
+
+    &:hover{
+        border: 1px solid rgb(153, 85, 7);
+    }
+}
+
+.input__btn{
+    border-radius: 10px;
+    padding: 16px 80px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 123%;
+    color: orange;
+    width: 456px;
+    border: none;
+    margin-top: 24px;
+    transition: .45s;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    &:active{
+        background-color: bisque;
+        transform: scale(.95);
+    }
+}
+
+@media screen and (max-width: 890px)  {
+    .input__title{
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 83%;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .input__title{
+        width: auto;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 105%;
+
+    }
+}
+
+@media screen and (max-width:530px) {
+    .input__box{
+        display: block;
+    }
+
+    .input__padd{
+        margin-bottom: 16px;
+        width: 320px;
+    }
+
+    .input__width{
+        width: 320px;
+    }
+
+    .input__btn{
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .input__btn{
+        width: 250px;
+    }
+
+    .input__width{
+        width: 250px;
+    }
+
+    .input__padd{
+        font-weight: 100;
+        font-size: 14px;
+        line-height: 73%;
+        width: 250px;
+    }
+}

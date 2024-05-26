@@ -1,0 +1,98 @@
+.connect{
+    background-image: url('../img/connect-bg.png');
+    padding-bottom: 40px;
+}
+
+.connect__title{
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 123%;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.connect__block{
+    margin-top: 32px;
+}
+
+.connect__btn{
+    display: flex;
+    gap: 16px;
+}
+
+.connect__email{
+    border-radius: 5px;
+    padding: 13px 19px;
+    background-color: #fff;
+    width: 346px;
+    border: none;
+    outline: none;
+}
+
+.connect__button{
+    border-radius: 5px;
+    padding: 16px 80px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 123%;
+    text-align: center;
+    background-color: orange;
+    align-items: center;
+    border: none;
+    color: white;
+    transition: .45s;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    &:active{
+        transform: scale(.95);
+        background-color: rgba(214, 151, 96, 0.947);
+    }
+}
+
+.connect__input{
+    margin-top: 14px;
+    display: flex;
+    gap: 8px;
+}
+
+.connect__text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    color: white;
+}
+
+@media screen and (max-width: 1032px) {
+    .connect__title{
+        font-size: 44px;
+        line-height: 90%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .connect__btn{
+        display:contents;
+    }
+
+    .connect__button{
+        margin-top: 14px;
+    }
+
+    .connect__email{
+        width: auto;
+    }
+
+    .connect__title{
+        font-size: 34px;
+        line-height: 80%;
+        width: auto;
+    }
+
+    .connect__button{
+        width: auto;
+    }
+}
